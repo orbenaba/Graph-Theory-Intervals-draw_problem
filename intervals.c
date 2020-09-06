@@ -1,12 +1,6 @@
 //VS-17
 #include<stdio.h>
 #include<stdlib.h>
-//Assigned by:
-//Student's name:Or Ben-Aba
-//Student's ID: 323092692
-//Group number:61309-4
-//lecturer:Yulia Kempner
-//Totur:Arad cohen
 
 //define struct for an interval
 typedef struct Interval {
@@ -47,11 +41,10 @@ void main()
 	greedyColoring();//calling the function, excepting to print out all the data required.
 	system("PAUSE");
 }
-//|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
 //||||||NOTES:|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-//|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 //||||||k- recives from the user the group intervals' size|||||||||||||||||||||||||||||||||||||||||||||||||||||||
-//||||||maxColor-keeps the chromatic number after calculating it by using chromatic_number method||||||||||||||||||
+//||||||maxColor-keeps the chromatic number after calculating it by using chromatic_number method||||||||||||||||
 //||||||edge-keeps the amount of edges which our intervals conceptualize|||||||||||||||||||||||||||||||||||||||||
 //||||||egeCmp-keeps the number of edges which our complement graph contains|||||||||||||||||||||||||||||||||||||
 //||||||maxdeg, mindeg, maxdegcmp, mindegcmp-all this are variables which "passed by reference"||||||||||||||||||
@@ -59,7 +52,7 @@ void main()
 //|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 //||||||arr- another presentation to our intervals graph, namely a new way to present our graph,|||||||||||||||||
 //||||||just by array of lists|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-//|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
 void greedyColoring()
 {
 	int k, edge,egeCmp, maxdeg, mindeg, maxdegcmp, mindegcmp;
